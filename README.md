@@ -415,9 +415,9 @@ const products = [
     img: ['imagenes/sb1.jpg', 'imagenes/sb2.jpg'],
     categoria: 'labial',
     colores: [
-      { nombre: 'Tono 3', codigo: '#c64b49', stock: 5 },
-      { nombre: 'Tono 4', codigo: '#c25574', stock: 3 },
-      { nombre: 'Tono 5', codigo: '#ba414c', stock: 7 }
+      { nombre: 'Tono 3', codigo: '#c64b49', stock: 1 },
+      { nombre: 'Tono 4', codigo: '#c25574', stock: 2 },
+      { nombre: 'Tono 5', codigo: '#ba414c', stock: 2 }
     ]
   }
 ];
