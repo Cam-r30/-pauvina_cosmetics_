@@ -1,5 +1,6 @@
 # pauvina
 Descubre la belleza que llevas dentro con nuestros productos premium
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -13,7 +14,7 @@ Descubre la belleza que llevas dentro con nuestros productos premium
       scroll-behavior: smooth;
       background-image: url('https://www.transparenttextures.com/patterns/flowers.png');
       background-color: #fff8f9;
-      color: #4a2c2a;
+      color: #311917cb;
       font-family: 'Segoe UI', sans-serif;
     }
     .navbar {
@@ -307,7 +308,7 @@ const products = [
   {
     id: 2,
     nombre: 'Corrector de ojeras Ani-k',
-    precio: 18900,
+    precio: 18500,
     img: ['imagenes/ca1.jpg', 'imagenes/ca2.jpg'],
     categoria: 'corrector',
     colores: [
@@ -340,7 +341,7 @@ const products = [
   },
   {
     id: 5,
-    nombre: 'Corrector de ojeras Bloomshell 10ml',
+    nombre: 'Corrector de ojeras Bloomshell 10ml nueva presentacion',
     precio: 17500,
     img: ['imagenes/cn1.jpg', 'imagenes/cn2.jpg'],
     categoria: 'corrector',
@@ -352,28 +353,19 @@ const products = [
   },
   {
     id: 6,
-    nombre: 'Pestañina Prosa Profesional Silicon',
-    precio: 22900,
-    img: ['imagenes/pp1.jpg'],
+    nombre: 'Pestañina Prosa',
+    precio: 18000,
+    img: ['imagenes/pp1.jpg', 'imagenes/pp2.jpg'],
     categoria: 'pestañina',
     colores: [
-      { nombre: 'Negro', codigo: '#000000', stock: 2 }
+      { nombre: 'Profesional Silicon', codigo: '#000000', stock: 2 },
+      { nombre: 'Maxi-Volumen', codigo: '#000000', stock: 1 }
     ]
   },
   {
     id: 7,
-    nombre: 'Pestañina Prosa Maxi-Volumen',
-    precio: 22900,
-    img: ['imagenes/pp2.jpg'],
-    categoria: 'pestañina',
-    colores: [
-      { nombre: 'Negro', codigo: '#000000', stock: 1 }
-    ]
-  },
-  {
-    id: 8,
     nombre: 'Velos faciales hidratantes Bioaqua',
-    precio: 8500,
+    precio: 2500,
     img: ['imagenes/vf1.jpg', 'imagenes/vf1.jpg'],
     categoria: 'velos',
     colores: [
@@ -383,9 +375,9 @@ const products = [
     ]
   },
   {
-    id: 9,
+    id: 8,
     nombre: 'Gloss Bonita Ani-k',
-    precio: 19900,
+    precio: 17900,
     img: ['imagenes/gb1.jpg', 'imagenes/gb1.jpg'], 
     categoria: 'labial',
     colores: [
@@ -395,25 +387,37 @@ const products = [
     ]
   },
   {
-    id: 10,
+    id: 9,
     nombre: 'Gloss Aura Trendy Tono 01',
-    precio: 21500,
+    precio: 17900,
     img: ['imagenes/a1.jpg', 'imagenes/a2.jpg'],
     categoria: 'labial',
     colores: [
       { nombre: 'tono1', codigo: '#d32f2f', stock: 3 },
-      { nombre: 'Rosa', codigo: '#f48fb1', stock: 0 }
+      
     ]
   },
   {
-    id: 11,
+    id: 10,
     nombre: 'Gloss de fresa Engol',
-    precio: 12900,
+    precio: 4500,
     img: ['imagenes/gf1.jpg', 'imagenes/gf2.jpg'],
     categoria: 'labial',
     colores: [
       { nombre: 'unico', codigo: '#ffc0cb', stock: 3 },
       
+    ]
+  },
+  {
+    id: 11,
+    nombre: 'Shell tint bloomshell',
+    precio: 13500,
+    img: ['imagenes/sb1.jpg', 'imagenes/sb2.jpg'],
+    categoria: 'labial',
+    colores: [
+      { nombre: 'Tono 3', codigo: '#c64b49', stock: 5 },
+      { nombre: 'Tono 4', codigo: '#c25574', stock: 3 },
+      { nombre: 'Tono 5', codigo: '#ba414c', stock: 7 }
     ]
   }
 ];
