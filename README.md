@@ -389,7 +389,7 @@ const products = [
   {
     id: 9,
     nombre: 'Gloss Aura Trendy Tono 01',
-    precio: 17900,
+    precio: 18500,
     img: ['imagenes/a1.jpg', 'imagenes/a2.jpg'],
     categoria: 'labial',
     colores: [
