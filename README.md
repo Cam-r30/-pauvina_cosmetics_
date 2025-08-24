@@ -325,7 +325,7 @@ const products = [
     img: ['imagenes/gc1.jpg', 'imagenes/gc2.jpg'],
     categoria: 'cejas',
     colores: [
-      { nombre: 'Transparente', codigo: '#ffffff', stock: 7 }
+      { nombre: 'Transparente', codigo: '#ffffff', stock: 5 }
     ]
   },
   {
